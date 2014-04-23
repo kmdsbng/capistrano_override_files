@@ -7,11 +7,11 @@ require "capistrano_override_files/version"
 Gem::Specification.new do |s|
   s.name        = "capistrano_override_files"
   s.version     = CapistranoOverrideFiles::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of CapistranoOverrideFiles."
-  s.description = "TODO: Description of CapistranoOverrideFiles."
+  s.authors     = ["Yoshihiro Kameda"]
+  s.email       = ["kameda.sbng@gmail.com"]
+  s.homepage    = "http://github.com/kmdsbng/capistrano_override_files"
+  s.summary     = "Setup stage owned files when cap deploy."
+  s.description = "Setup stage owned files when cap deploy."
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
