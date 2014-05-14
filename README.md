@@ -29,6 +29,6 @@ config
 ```
 
 
-This library depend on capistrano-multistage.
+This library depend on capistrano-ext (use multistage).
 
 This project rocks and uses MIT-LICENSE.
