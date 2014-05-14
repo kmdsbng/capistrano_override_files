@@ -17,15 +17,15 @@ If you want to replace stage owned /initializers/env.rb, put files like below.
 
 ```
 config
-├── override_files
-│   ├── production
-│   │   └── config
-│   │       └── initializers
-│   │           └── env.rb
-│   └── stag
-│       └── config
-│           └── initializers
-│               └── env.rb
+└── override_files
+    ├── production
+    │   └── config
+    │       └── initializers
+    │           └── env.rb
+    └── staging
+        └── config
+            └── initializers
+                └── env.rb
 ```
 
 
